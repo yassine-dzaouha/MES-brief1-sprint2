@@ -39,7 +39,7 @@ function addProduct(){
 
 function createProduct(tag, classname, content){
   const li = document.createElement(tag);
-  li.classname = classname;
+  li.className = classname;
   li.textContent = content; 
   return li;
 }
@@ -54,7 +54,7 @@ function showProducts(){
     const productprice = createProduct("span", "prix-produit", product.prix);
     div.append(productName,productprice);
     const button = document.createElement("button");
-    button.classname = "supprimer";
+    button.className = "supprimer";
     button.textContent = "Retirer";
     button.addEventListener("click",()=>{
       deleteProduct(product.id)

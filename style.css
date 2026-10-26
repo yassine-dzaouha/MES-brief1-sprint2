@@ -62,7 +62,7 @@ input {
   border-radius: 8px;
   font: inherit;
 }
-form button {
+button {
   padding: 13px 16px;
   border: 0;
   border-radius: 8px;
@@ -76,7 +76,7 @@ button:hover {
   filter: brightness(0.92);
 }
 input:focus-visible,
-form button:focus-visible {
+button:focus-visible {
   outline: 3px solid #d29b27;
   outline-offset: 3px;
 }
